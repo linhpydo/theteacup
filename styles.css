@@ -1,0 +1,589 @@
+/* Write your styles here */
+
+    body{
+        background-color:Lavender;
+    }
+    
+    /* Header*/
+    header{
+        background-color:white;
+        background-size:cover;
+        padding: 2rem;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    #heading-title{
+        color:DarkSlateBlue;
+        font-size: 3.125rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 700;
+    }
+
+    /*Article*/
+    .introduction{
+        background-color: white;
+        margin-top: 2rem;
+        margin-left: 11rem;
+        margin-right: 11rem;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    article{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    article h2{
+        color:DarkSlateBlue;
+        font-size: 2rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    article p{
+        color:black;
+        font-size: 1.25rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 500;
+        text-align: left;
+        line-height: 180%;
+    }
+
+    article li{
+        padding: 0.325rem 2rem;
+        background-image: url("svg/mug-hot-alt.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 1.25rem;
+    }
+
+    article ul li{
+        text-align: left;
+        color:Black;
+        font-size: 1.25rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 700;
+        line-height: 180%;
+    }
+
+    /*3 tea types*/
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 2rem;
+        margin-left: 11rem;
+        margin-right: 11rem;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .tea-info{
+        background-color:white;
+        text-align: center;
+    }
+
+    .tea-info h2{
+        color:MidnightBlue;
+        font-size: 2rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 700;
+    }
+
+    .tea-info p{
+        color:black;
+        font-size: 1.25rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 500;
+    }
+
+    button{
+        background-color: white;
+        color:black;
+        border: 2px solid black;
+        font-size: 1.25rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 500;
+        padding:0.75rem;
+        padding-left: 4rem; padding-right: 4rem;
+        border-radius: 0.3rem;
+        margin-bottom: 2rem;
+    }
+
+    button:hover{
+        background-color: DarkSlateBlue;
+        color:white;
+        border: 2px solid DarkSlateBlue;
+    }
+
+    /*youtube section*/
+    #youtube-video{
+        background-color: white;
+        margin-top: 2rem;
+        margin-left: 11rem;
+        margin-right: 11rem;
+        padding: 2rem;
+        align-items: center;
+        justify-content:center;
+        flex-direction:row;
+    }
+
+    .youtube-left{
+        float: left;
+    }
+
+    .youtube-right{
+        float: inherit;
+        width: auto;
+        height: 450px;
+        padding-left: 1.5rem;
+        display: flex;
+        align-items: center;
+        text-align:center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .youtube-right h2{
+        color:DarkSlateBlue;
+        font-size: 2rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 700;
+    }
+
+    .youtube-button{
+        color:black;
+        border: 2px solid black;
+        font-size: 1.25rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        padding:0.75rem;
+        padding-left: 4rem; padding-right: 4rem;
+        border-radius: 0.3rem;
+    }
+
+    .youtube-button:hover{
+        background-color: DarkSlateBlue;
+        color:white;
+        border: 2px solid DarkSlateBlue;
+    }
+
+    /*video section*/
+    #local-video{
+        background-color: white;
+        margin-top: 2rem;
+        margin-left: 11rem;
+        margin-right: 11rem;
+        padding: 2rem;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .video-right{
+        float: right;
+    }
+
+    .video-left{
+        float: inherit;
+        width: auto;
+        height: 450px;
+        padding-right: 1.5rem;
+        display: flex;
+        align-items: center;
+        text-align:center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .video-left h2{
+        color:DarkSlateBlue;
+        font-size: 2rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 700;
+        line-height: 130%;
+    }
+
+    .video-button{
+        color:black;
+        border: 2px solid black;
+        font-size: 1.25rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        padding:0.75rem;
+        padding-left: 4rem; padding-right: 4rem;
+        border-radius: 0.3rem;
+    }
+
+    .video-button:hover{
+        background-color: DarkSlateBlue;
+        color:white;
+        border: 2px solid DarkSlateBlue;
+    }
+
+    footer{
+        background-color:white;
+        background-size:cover;
+        height: 15vh;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-top:2rem;
+    }
+
+    #footer-title{
+        color:DarkSlateBlue;
+        font-size: 3.125rem;
+        font-family: 'Mali', sans-serif;
+        font-weight: 700;
+    }
+
+@media screen and (min-width:360px) and (max-width:767px) {
+    header{
+        padding: 1rem;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    #heading-title {
+        font-size: 2rem;
+    }
+
+    /*Article*/
+    .introduction{
+        background-color: white;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    article{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    article h2{
+        font-size: 1.4rem;
+    }
+
+    article p{
+        font-size: 0.875rem;
+    }
+
+    article li{
+        padding: 0.325rem 1.5rem;
+        background-size: 1rem;
+    }
+
+    article ul li{
+        text-align: left;
+        font-size: 0.875rem;
+        line-height: 180%;
+    }
+
+    /*3 tea types*/
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .tea-info{
+        text-align: center;
+    }
+
+    .tea-info h2{
+        font-size: 1.5rem;
+    }
+
+    .tea-info p{
+        color:black;
+        font-size: 0.875rem;
+    }
+
+    button{
+        font-size: 0.875rem;
+        padding:0.7rem;
+        padding-left: 2rem; padding-right: 2rem;
+        border-radius: 0.3rem;
+    }
+
+    /*youtube section*/
+    #youtube-video{
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .youtube-left{
+        width: 100%;
+        height: auto;
+    }
+
+    .youtube-right{
+        width: 100%;
+        max-height:120px;
+        margin-top: 0.5rem;
+        align-items: center;
+        padding: 0;
+    }
+
+    .youtube-right h2{
+        font-size: 1.5rem;
+    }
+
+    .youtube-button{
+        font-size: 0.875rem;
+        padding:0.7rem;
+        padding-left: 2rem; padding-right: 2rem;
+        margin:0;
+        border-radius: 0.3rem;
+        align-items: center;
+    }
+
+    /*video section*/
+    #local-video{
+        padding: 1rem;
+        margin: 1rem;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+    
+    .video-right{
+        width: 100%;
+        height: auto;
+    }
+
+    .video-left{
+        width: 100%;
+        max-height:150px;
+        margin-top: 0.5rem;
+        align-items: center;
+        padding: 0;
+    }
+
+    .video-left h2{
+        font-size: 1.3rem;
+    }
+
+    .video-button{
+        font-size: 0.875rem;
+        padding:0.7rem;
+        padding-left: 2rem; padding-right: 2rem;
+        margin:0;
+        border-radius: 0.3rem;
+        align-items: center;
+    }
+
+    footer{
+        height: 15vh;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-top: 0.5rem;
+    }
+
+    #footer-title{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1300px) {
+    header{
+        padding: 1.5rem;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    #heading-title {
+        font-size: 2.875rem;
+    }
+
+    /*Article*/
+    .introduction{
+        background-color: white;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    article{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    article h2{
+        font-size: 1.75rem;
+    }
+
+    article p{
+        font-size: 1rem;
+    }
+
+    article li{
+        padding: 0.325rem 1.75rem;
+        background-size: 1rem;
+    }
+
+    article ul li{
+        text-align: left;
+        font-size: 1rem;
+        line-height: 180%;
+    }
+
+    /*3 tea types*/
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 1.25rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .tea-info{
+        padding: 0rem;
+        background-color:white;
+        text-align: center;
+    }
+
+    .tea-info h2{
+        font-size: 1.75rem;
+    }
+
+    .tea-info p{
+        font-size: 1rem;
+    }
+
+    button{
+        font-size: 1rem;
+        padding:1rem;
+        padding-left: 2rem; padding-right: 2rem;
+        border-radius: 0.3rem;
+    }
+
+    /*youtube section*/
+    #youtube-video{
+        height: auto;
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .youtube-left{
+        width: 100%;
+        height: 400px;
+    }
+
+    .youtube-right{
+        width: auto;
+        height: auto;
+        margin-top: 0rem;
+        align-items: center;
+        padding: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .youtube-right h2{
+        font-size: 1.75rem;
+    }
+
+    .youtube-button{
+        font-size: 1rem;
+        padding: 1rem;
+        padding-left: 3rem; padding-right: 3rem;
+        border-radius: 0.3rem;
+        align-items: center;
+    }
+
+    /*video section*/
+    #local-video{
+        height: auto;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding: 0.5rem 1.5rem 1.5rem;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+    
+    .video-right{
+        width: 100%;
+        height: 400px;
+    }
+
+    .video-left{
+        width:auto;
+        height: auto;
+        margin-top: 0rem;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .video-left h2{
+        font-size: 1.75rem;
+    }
+
+    .video-button{
+        font-size: 1rem;
+        padding: 1rem;
+        padding-left: 3rem; padding-right: 3rem;
+        border-radius: 0.3rem;
+        align-items: center;
+    }
+
+    footer{
+        height: 15vh;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    #footer-title{
+        font-size: 2.875rem;
+    }
+}
